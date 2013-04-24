@@ -1,0 +1,23 @@
+<?php
+$liste_promo = array(
+	array(
+		"id"=>1,
+		"name"=>"IS1-2"
+	),
+	array(
+		"id"=>2,
+		"name"=>"IS3-4"
+	),
+	array(
+		"id"=>3,
+		"name"=>"AS3-4"
+	),
+	array(
+		"id"=>4,
+		"name"=>"BDISe"
+	),
+	array(
+		"id"=>5,
+		"name"=>"SESa"
+	)
+);

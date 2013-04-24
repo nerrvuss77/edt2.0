@@ -1,0 +1,34 @@
+/*
+ * Default Style Sheet
+ */
+
+ 
+ 
+/* General Style */
+body{	background: url("../pictures/errors/404_bg.png") repeat-x #222222 !important; margin: 0px !important; padding: 0px !important; width: 100% !important;}
+/* General Style END */
+
+
+
+/* Head Style */
+#head{	margin: 0px !important; padding: 0px !important;}
+/* Head Style END */
+
+
+
+/* Body Style */
+#body{	height: 524px !important; margin: auto !important; padding: 0px !important; width: 500px !important;}
+/* Body Style */
+
+
+
+/* Foot Style */
+#foot{	margin: 10px 0 0 0; width: 100% !important;}
+
+/* Copyright Style */
+#copyright{		float: right !important; font-size: x-small !important;}
+#copyright_img{	width: 50px !important;}
+#copyright a{	border: none !important; text-decoration: none !important;}
+/* Copyright Style END */
+
+/* Foot Style END */

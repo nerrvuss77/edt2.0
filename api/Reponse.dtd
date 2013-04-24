@@ -1,0 +1,39 @@
+<!DOCTYPE Reponse>
+<!ELEMENT Reponse (EDT, Matieres, Enseignants, Groupes, Promotions)>
+<!ELEMENT EDT (Annee+)>
+<!ELEMENT Annee (Mois+)>
+<!ATTLIST Annee 
+		valeur CDATA #REQUIRED>
+<!ELEMENT Mois (Jour+)>
+<!ATTLIST Mois 
+		valeur CDATA #REQUIRED>
+<!ELEMENT Jour (Cours+)>
+<!ATTLIST 
+		Jour valeur CDATA #REQUIRED>
+<!ELEMENT Cours (Debut, Fin)>
+<!ATTLIST Cours 
+		matiere IDREF #REQUIRED 
+		enseignant IDREF #REQUIRED 
+		groupe IDREF #REQUIRED>
+<!ELEMENT Debut (empty)>
+<!ATTLIST Debut 
+		heure CDATA #REQUIRED 
+		minute CDATA #REQUIRED>
+<!ELEMENT Fin (empty)>
+<!ATTLIST Fin 
+		heure CDATA #REQUIRED 
+		minute CDATA #REQUIRED>
+<!ELEMENT Matieres (Matiere+)>
+<!ELEMENT Matiere (empty)>
+<!ATTLIST Matiere 
+		id ID #REQUIRED 
+		nom CDATA #REQUIRED>
+<!ELEMENT Enseignants (Enseignant+)>
+<!ELEMENT Enseignant (empty)>
+<!ATTLIST Enseignant id ID #REQUIRED nom CDATA #REQUIRED>
+<!ELEMENT Groupes (Groupe+)>
+<!ELEMENT Groupe (empty)>
+<!ATTLIST Groupe id ID #REQUIRED nom CDATA #REQUIRED promotion IDREF #REQUIRED>
+<!ELEMENT Promotions (Promotion+)>
+<!ELEMENT Promotion (empty)>
+<!ATTLIST Promotion id ID #REQUIRED nom CDATA #REQUIRED>

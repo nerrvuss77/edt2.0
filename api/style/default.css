@@ -1,0 +1,9 @@
+/*
+ * Default Style Sheet
+ */
+
+/* Floor Panel Style */
+#floor_panel{		float: left !important; left: 520px !important; position: absolute !important;}
+#floor_panel .floor_buttom{		cursor: pointer !important;}
+#floor_panel .floor_buttom a{	text-decoration: none;}
+/* Floor Panel Style END */

@@ -1,0 +1,3 @@
+ErrorDocument 404 /edt2.0/map/errors/404.php
+
+DirectoryIndex index.php

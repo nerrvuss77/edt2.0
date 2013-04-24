@@ -1,0 +1,26 @@
+ErrorDocument 400 /edt2.0/error.php?code=400
+ErrorDocument 401 /edt2.0/error.php?code=401
+ErrorDocument 403 /edt2.0/error.php?code=402
+ErrorDocument 403 /edt2.0/error.php?code=403
+ErrorDocument 404 /edt2.0/error.php?code=404
+ErrorDocument 405 /edt2.0/error.php?code=405
+ErrorDocument 406 /edt2.0/error.php?code=406
+ErrorDocument 407 /edt2.0/error.php?code=407
+ErrorDocument 408 /edt2.0/error.php?code=408
+ErrorDocument 409 /edt2.0/error.php?code=409
+ErrorDocument 410 /edt2.0/error.php?code=410
+ErrorDocument 411 /edt2.0/error.php?code=411
+ErrorDocument 412 /edt2.0/error.php?code=412
+ErrorDocument 413 /edt2.0/error.php?code=413
+ErrorDocument 414 /edt2.0/error.php?code=414
+ErrorDocument 415 /edt2.0/error.php?code=415
+ErrorDocument 416 /edt2.0/error.php?code=416
+ErrorDocument 417 /edt2.0/error.php?code=417
+ErrorDocument 418 /edt2.0/error.php?code=418
+ErrorDocument 422 /edt2.0/error.php?code=422
+ErrorDocument 423 /edt2.0/error.php?code=423
+ErrorDocument 424 /edt2.0/error.php?code=424
+ErrorDocument 425 /edt2.0/error.php?code=425
+ErrorDocument 426 /edt2.0/error.php?code=426
+
+DirectoryIndex index.php
